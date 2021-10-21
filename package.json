@@ -1,0 +1,31 @@
+{
+  "name": "rblx-dev-packager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node index.js"
+  },
+  "bin": {
+    "rblx-get": "bin/get.js",
+    "rblx-publish": "bin/publish.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "axios": "^0.23.0",
+    "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "express-fileupload": "^1.2.1",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0",
+    "lodash": "^4.17.21"
+  },
+  "deprecated": false,
+  "keywords": [],
+  "license": "ISC",
+  "engines": {
+    "node": "14.x"
+  },
+  "version": "1.0.10"
+}
